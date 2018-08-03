@@ -1,0 +1,25 @@
+{
+  "name": "proxy-test",
+  "version": "1.0.0",
+  "description": "a proxy test case",
+  "scripts": {
+    "proxy1": "node ./proxy1.js",
+    "proxy2": "node ./proxy2.js",
+    "server": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderlikeadog/proxy-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderlikeadog/proxy-test/issues"
+  },
+  "homepage": "https://github.com/coderlikeadog/proxy-test#readme",
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "koa": "^2.5.2",
+    "koa2-proxy": "^1.1.7"
+  }
+}
