@@ -2,7 +2,7 @@ const proxy = require('koa2-proxy')
 
 // 转发请求到指定host
 proxy.when('/', function(ctx) {
-  ctx.request.host = 'localhost:3000'
+  ctx.request.host = '192.168.0.120:3000'
   ctx.request.protocol = 'http'
 })
 
@@ -12,4 +12,4 @@ proxy.on('end', function(ctx) {
 })
 
 // 监听端口
-proxy.listen(9527)
+proxy.listen(3000)

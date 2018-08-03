@@ -7,4 +7,4 @@ app.use(async ctx => {
   ctx.body = `server echo: request.ip = ${ctx.request.ip}, request.ips = ${JSON.stringify(ctx.request.ips)}`
 })
 
-app.listen(3000)
+app.listen(9527)
