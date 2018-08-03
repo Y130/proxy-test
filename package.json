@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "a proxy test case",
   "scripts": {
-    "proxy1": "node ./proxy1.js",
-    "proxy2": "node ./proxy2.js",
+    "proxy": "node ./proxy.js",
     "server": "node ./server.js"
   },
   "repository": {
@@ -19,7 +18,6 @@
   "homepage": "https://github.com/coderlikeadog/proxy-test#readme",
   "dependencies": {
     "http-proxy": "^1.17.0",
-    "koa": "^2.5.2",
-    "koa2-proxy": "^1.1.7"
+    "koa": "^2.5.2"
   }
 }
